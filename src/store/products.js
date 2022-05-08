@@ -34,7 +34,7 @@ export default {
 	},
 	actions: {
 		async loadProducts({ commit }){
-			fetch('https://faceprog.ru/reactcourseapi/products/all.php')
+			fetch('http://faceprog.ru/reactcourseapi/products/all.php')
 				.then((response) => {
 					return response.json();
 				})
